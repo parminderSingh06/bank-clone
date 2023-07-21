@@ -1,0 +1,82 @@
+nav{
+}
+
+div{
+
+  margin: 2px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+.want-border{
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 1px 3px;
+}
+
+.container{
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+}
+
+.menu-options{
+  display: flex;
+}
+
+.left-nav{
+  display: flex;
+}
+
+.left-options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-words{
+  color: black;
+  font-size: 50px;
+  font-family: fantasy;
+}
+
+.right-nav{
+  display: flex;
+}
+
+
+.setting-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-menu{
+  border: 2px solid blue;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+}
+
+.dropdown-menu a{
+  font-size: 18px;
+}

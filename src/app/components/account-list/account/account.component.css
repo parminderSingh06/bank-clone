@@ -1,0 +1,17 @@
+div{
+  border: 1px solid red;
+}
+
+.balance-numbers{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+}
+
+#bal-size{
+  font-size: 45px;
+}
+
+.name-display{
+  font-size: 30px;
+}

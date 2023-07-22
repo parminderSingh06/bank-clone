@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./account-list.component.css']
 })
 export class AccountListComponent {
-  accounts = [];
+
 }
